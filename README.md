@@ -1,24 +1,42 @@
-# README
+# RAILS CI CD SETUP
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple rails project to demonstrate how to setup CI/CD.
 
-Things you may want to cover:
+## System dependencies
+  * Ruby 2.6.2 (You can use [rbenv](https://github.com/rbenv/rbenv) or [rvm](https://rvm.io/) but not both)
+  * Rails 5.2.3
+  * Bundler gem
+  * PostgreSQL 11.3
 
-* Ruby version
+## Configuration
+  * Clone this repository
+    ```zsh
+    git clone https://github.com/thoth-ky/rails-ci-cd-setup.git
+    cd rails-ci-cd-setup
+    ```
+  * Ensure that the Postgres is installed, and linked
+    ```
+    brew install postgres
+    brew link postgres
+    ```
+  * Install gems
+  ```zsh
+  bundle install
+  ```
 
-* System dependencies
+## Database creation
+  ```zsh
+  rails db:create
+  rails db:migrate
+  ```
 
-* Configuration
+## How to run the test suite
+<!-- TODO: -->
 
-* Database creation
+## Deployment instructions
+<!-- TODO: -->
 
-* Database initialization
+## Author
+  * Joseph Mutuku Kyalo
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
