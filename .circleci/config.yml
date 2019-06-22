@@ -49,6 +49,12 @@ jobs:
       - run: bundle exec rake db:create
       - run: bundle exec rake db:schema:load
 
+      # Run Code Linter
+      - run:
+          name: Run code linter
+          command: |
+            bundle exec rubocop
+
       # run tests!
       - run:
           name: run tests
