@@ -1,5 +1,7 @@
 # RAILS CI CD SETUP
 
+[![CircleCI](https://circleci.com/gh/thoth-ky/rails-ci-cd-setup/tree/develop.svg?style=svg)](https://circleci.com/gh/thoth-ky/rails-ci-cd-setup/tree/develop)
+
 This is a simple rails project to demonstrate how to setup CI/CD.
 
 ## System dependencies
@@ -11,27 +13,29 @@ This is a simple rails project to demonstrate how to setup CI/CD.
 ## Configuration
   * Clone this repository
     ```zsh
-    git clone https://github.com/thoth-ky/rails-ci-cd-setup.git
-    cd rails-ci-cd-setup
+    $ git clone https://github.com/thoth-ky/rails-ci-cd-setup.git
+    $ cd rails-ci-cd-setup
     ```
   * Ensure that the Postgres is installed, and linked
     ```
-    brew install postgres
-    brew link postgres
+    $ brew install postgres
+    $ brew link postgres
     ```
   * Install gems
-  ```zsh
-  bundle install
-  ```
+    ```zsh
+    $ bundle install
+    ```
 
 ## Database creation
   ```zsh
-  rails db:create
-  rails db:migrate
+  $ rails db:create
+  $ rails db:migrate
   ```
 
 ## How to run the test suite
-<!-- TODO: -->
+  ```zsh
+  $ bundle execrspec
+  ```
 
 ## Deployment instructions
 <!-- TODO: -->
