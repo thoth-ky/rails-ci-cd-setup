@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="27" skipped="13" failures="0" errors="0" time="0.396518" timestamp="2019-06-23T01:42:26+03:00" hostname="Josephs-MacBook-Pro-2.local">
+<properties>
+<property name="seed" value="30670"/>
+</properties>
+<testcase classname="spec.controllers.products_controller_spec" name="ProductsController GET #index returns a success response" file="./spec/controllers/products_controller_spec.rb" time="0.004771"><skipped/></testcase>
+<testcase classname="spec.controllers.products_controller_spec" name="ProductsController GET #show returns a success response" file="./spec/controllers/products_controller_spec.rb" time="0.002724"><skipped/></testcase>
+<testcase classname="spec.controllers.products_controller_spec" name="ProductsController GET #new returns a success response" file="./spec/controllers/products_controller_spec.rb" time="0.022796"></testcase>
+<testcase classname="spec.controllers.products_controller_spec" name="ProductsController GET #edit returns a success response" file="./spec/controllers/products_controller_spec.rb" time="0.001397"><skipped/></testcase>
+<testcase classname="spec.controllers.products_controller_spec" name="ProductsController POST #create with valid params creates a new Product" file="./spec/controllers/products_controller_spec.rb" time="0.005192"><skipped/></testcase>
+<testcase classname="spec.controllers.products_controller_spec" name="ProductsController POST #create with valid params redirects to the created product" file="./spec/controllers/products_controller_spec.rb" time="0.001294"><skipped/></testcase>
+<testcase classname="spec.controllers.products_controller_spec" name="ProductsController POST #create with invalid params returns a success response (i.e. to display the &apos;new&apos; template)" file="./spec/controllers/products_controller_spec.rb" time="0.001765"><skipped/></testcase>
+<testcase classname="spec.controllers.products_controller_spec" name="ProductsController PUT #update with valid params updates the requested product" file="./spec/controllers/products_controller_spec.rb" time="0.002114"><skipped/></testcase>
+<testcase classname="spec.controllers.products_controller_spec" name="ProductsController PUT #update with valid params redirects to the product" file="./spec/controllers/products_controller_spec.rb" time="0.001684"><skipped/></testcase>
+<testcase classname="spec.controllers.products_controller_spec" name="ProductsController PUT #update with invalid params returns a success response (i.e. to display the &apos;edit&apos; template)" file="./spec/controllers/products_controller_spec.rb" time="0.001297"><skipped/></testcase>
+<testcase classname="spec.controllers.products_controller_spec" name="ProductsController DELETE #destroy destroys the requested product" file="./spec/controllers/products_controller_spec.rb" time="0.001456"><skipped/></testcase>
+<testcase classname="spec.controllers.products_controller_spec" name="ProductsController DELETE #destroy redirects to the products list" file="./spec/controllers/products_controller_spec.rb" time="0.001306"><skipped/></testcase>
+<testcase classname="spec.helpers.products_helper_spec" name="ProductsHelper add some examples to (or delete) /Users/thoth/Documents/repos/rails-ci-cd-setup/spec/helpers/products_helper_spec.rb" file="./spec/helpers/products_helper_spec.rb" time="0.000006"><skipped/></testcase>
+<testcase classname="spec.models.product_spec" name="Product add some examples to (or delete) /Users/thoth/Documents/repos/rails-ci-cd-setup/spec/models/product_spec.rb" file="./spec/models/product_spec.rb" time="0.000005"><skipped/></testcase>
+<testcase classname="spec.requests.products_spec" name="Products GET /products works! (now write some real specs)" file="./spec/requests/products_spec.rb" time="0.260199"></testcase>
+<testcase classname="spec.routing.products_routing_spec" name="ProductsController routing routes to #index" file="./spec/routing/products_routing_spec.rb" time="0.002351"></testcase>
+<testcase classname="spec.routing.products_routing_spec" name="ProductsController routing routes to #new" file="./spec/routing/products_routing_spec.rb" time="0.002247"></testcase>
+<testcase classname="spec.routing.products_routing_spec" name="ProductsController routing routes to #show" file="./spec/routing/products_routing_spec.rb" time="0.001505"></testcase>
+<testcase classname="spec.routing.products_routing_spec" name="ProductsController routing routes to #edit" file="./spec/routing/products_routing_spec.rb" time="0.001639"></testcase>
+<testcase classname="spec.routing.products_routing_spec" name="ProductsController routing routes to #create" file="./spec/routing/products_routing_spec.rb" time="0.001871"></testcase>
+<testcase classname="spec.routing.products_routing_spec" name="ProductsController routing routes to #update via PUT" file="./spec/routing/products_routing_spec.rb" time="0.002344"></testcase>
+<testcase classname="spec.routing.products_routing_spec" name="ProductsController routing routes to #update via PATCH" file="./spec/routing/products_routing_spec.rb" time="0.001551"></testcase>
+<testcase classname="spec.routing.products_routing_spec" name="ProductsController routing routes to #destroy" file="./spec/routing/products_routing_spec.rb" time="0.001477"></testcase>
+<testcase classname="spec.views.products.edit" name="products/edit renders the edit product form" file="./spec/views/products/edit.html.erb_spec.rb" time="0.033469"></testcase>
+<testcase classname="spec.views.products.index" name="products/index renders a list of products" file="./spec/views/products/index.html.erb_spec.rb" time="0.013471"></testcase>
+<testcase classname="spec.views.products.new" name="products/new renders new product form" file="./spec/views/products/new.html.erb_spec.rb" time="0.007019"></testcase>
+<testcase classname="spec.views.products.show" name="products/show renders attributes in &lt;p&gt;" file="./spec/views/products/show.html.erb_spec.rb" time="0.011248"></testcase>
+</testsuite>
